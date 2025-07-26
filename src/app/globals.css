@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Add this to your styles.css or your Tailwind CSS file */
+.text-stroke {
+  -webkit-text-stroke: 3px #28ABB9; /* stroke width and color */
+  color: transparent; /* optional: to make the fill transparent */
+}
+.green-stroke {
+  -webkit-text-stroke: 3px #A8DDA8; /* stroke width and color */
+  color: transparent; /* optional: to make the fill transparent */
+}
